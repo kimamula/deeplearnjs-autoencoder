@@ -1,0 +1,37 @@
+{
+  "name": "deeplearnjs-autoencoder",
+  "version": "1.0.0",
+  "description": "Autoencoder implementation with deeplearn.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --pretty --watch\" \"next\"",
+    "prebuild": "tsc",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimamula/deeplearnjs-autoencoder.git"
+  },
+  "author": "kimamula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimamula/deeplearnjs-autoencoder/issues"
+  },
+  "homepage": "https://github.com/kimamula/deeplearnjs-autoencoder#readme",
+  "dependencies": {
+    "chart.js": "^2.7.1",
+    "deeplearn": "^0.3.13",
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.7.2",
+    "@types/next": "^2.4.6",
+    "@types/react": "^16.0.28",
+    "@types/react-dom": "^16.0.3",
+    "concurrently": "^3.5.1",
+    "typescript": "^2.5.3"
+  }
+}

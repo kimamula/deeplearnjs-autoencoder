@@ -1,0 +1,16 @@
+{
+  "mnist": {
+    "data": [{
+      "name": "images",
+      "path": "https://storage.googleapis.com/learnjs-data/model-builder/mnist_images.png",
+      "dataType": "png",
+      "shape": [28, 28, 1]
+    }, {
+      "name": "labels",
+      "path": "https://storage.googleapis.com/learnjs-data/model-builder/mnist_labels_uint8",
+      "dataType": "uint8",
+      "shape": [10]
+    }],
+    "modelConfigs": {}
+  }
+}
